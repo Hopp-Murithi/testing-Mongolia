@@ -77,4 +77,3 @@ The user interface is intuitive overall, but there's room for improvement in ter
 ## Conclusion
 
 Completing this project has been a rewarding experience, especially overcoming the challenges posed by working with deprecated packages. It has honed my problem-solving skills and deepened my understanding of Node.js development practices. I'm excited about the opportunity to contribute to your team and look forward to discussing my solutions further.
-Thank you for considering my application. I'm eager to bring my skills and passion to your team and contribute to building a robust and reliable project.
