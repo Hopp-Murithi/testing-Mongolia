@@ -9,6 +9,7 @@ This project is a test assignment designed to simulate real-world development sc
 Before starting, ensure you have Node Version Manager (NVM) installed on your system. NVM allows you to easily switch between different versions of Node.js. To install NVM, follow the instructions on the [official NVM GitHub repository](https://github.com/nvm-sh/nvm). Once NVM is installed, you can set up the project environment by running the following commands:
 
 ```bash
+nvm install 16.5.0
 nvm use 16.5.0
 ```
 Ensure you are using the correct node version by running
