@@ -11,6 +11,11 @@ Before starting, ensure you have Node Version Manager (NVM) installed on your sy
 ```bash
 nvm use 16.5.0
 ```
+ensure you are using the correct node version by running
+
+```bash
+node -v
+```
 
 From the root directory
 
