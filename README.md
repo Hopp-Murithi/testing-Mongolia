@@ -11,18 +11,17 @@ Before starting, ensure you have Node Version Manager (NVM) installed on your sy
 ```bash
 nvm use 16.5.0
 ```
-ensure you are using the correct node version by running
+Ensure you are using the correct node version by running
 
 ```bash
 node -v
 ```
 
-From the root directory
+From the root directory, run the following command to install client/frontend dependencies
 
 ```bash
 npm install
 ```
-to install client/frontend dependencies
 
 Navigate to the backend directory and install dependencies by running
 
@@ -30,9 +29,6 @@ Navigate to the backend directory and install dependencies by running
 cd backend
 npm install
 ```
-again. This setup ensures you're using Node.js version 16.5.0 for this project.
-
-Remember to copy the sql queries to create tables from ```backend/src/db/mydefi.sql```
 
 ### Starting the Project
 
