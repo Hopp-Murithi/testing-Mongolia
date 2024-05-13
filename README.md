@@ -33,7 +33,7 @@ npm install
 
 ### Starting the Project
 
-To start the project, you'll need to have MySQL and Apache running on XAMPP.
+To start the project, you'll need to have MySQL and Apache running on XAMPP or any other mysql client ```eg mysql workbench```.
 From the root directory of the project, execute the following command:
 
 ```bash 
