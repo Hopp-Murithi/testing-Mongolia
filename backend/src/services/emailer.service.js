@@ -18,8 +18,7 @@ module.exports = {
                 pass: process.env.EMAIL_PWD
             }
         });
-        console.log(process.env.EMAIL_HOST)
-    
+
         var mailOptions = {
             from: process.env.EMAIL_USER,
             to: dest,
