@@ -12,15 +12,16 @@ module.exports = {
             service: process.env.EMAIL_SERVICE,
             host: process.env.EMAIL_HOST,
             port: Number(process.env.EMAIL_PORT),
+            secure:true,
             auth: {
                 user: process.env.EMAIL_USER,
-                user: process.env.EMAIL,
                 pass: process.env.EMAIL_PWD
             }
         });
+        console.log(process.env.EMAIL_HOST)
     
         var mailOptions = {
-            from: process.env.EMAIL,
+            from: process.env.EMAIL_USER,
             to: dest,
             subject: subject,
             text: body

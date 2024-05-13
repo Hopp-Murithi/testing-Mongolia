@@ -51,11 +51,11 @@ app.use(`/api/subscribers`, subscriberRouter);
 app.use(`/api/ieo`, ieo);
 app.use(`/api/p2p`, p2p);
 
-// 404 error
-// app.all('*', (req, res, next) => {
-//     const err = new HttpException(404, 'Endpoint Not Found');
-//     next(err);
-// });
+//404 error
+app.all('*', (req, res, next) => {
+    const err = new HttpException(404, 'Endpoint Not Found');
+    next(err);
+});
 
 // Error middleware
 app.use(errorMiddleware);

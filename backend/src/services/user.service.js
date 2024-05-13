@@ -64,8 +64,7 @@ class UserService {
     }
 
     static async verifyEmail(email, locale) {
-        console.log('Email:', email);
-        console.log('Locale:', locale);
+      
         if (!this.emailValidation(email)) {
             return { response: false, message: "Email validation failed.", data: null }
         }
